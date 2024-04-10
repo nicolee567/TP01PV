@@ -11,7 +11,7 @@ public class Main {
 		int numero05=2 ;
 		double promedio =(double)(numero01 + numero02+numero03+numero04+numero05)/5;
 		System.out.println("El promedio es: "+ promedio);
-
+		
+		}
+	
 	}
-
-}
