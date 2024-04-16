@@ -1,5 +1,4 @@
 package ar.edu.unju.fi.ejercicio9.main;
-import ar.edu.unju.fi.ejercicio8.model.CalculadoraEspecial;
 import ar.edu.unju.fi.ejercicio9.model.Producto;
 import java.util.Scanner;
 public class Main {
