@@ -1,6 +1,5 @@
 package ar.edu.unju.fi.ejercicio10.main;
 import ar.edu.unju.fi.ejercicio10.model.Pizza;
-import ar.edu.unju.fi.ejercicio9.model.Producto;
 
 import java.util.Scanner;
 public class Main {
@@ -15,15 +14,20 @@ public class Main {
 		System.out.println("Valores permitidos:20,30 o 40");
 	    pizza.setDiametro(sc.nextFloat());
 	    
-	    System.out.println("¿Desea ingredientes especiales?(SI/NO)");
+	    System.out.println("¿Desea ingredientes especiales?(true/false)");
 	    pizza.setIngredientesEsp(sc.nextBoolean());
 	    
-	  
-	   n++;
+	    
+	    n++;
+	    System.out.println("***Pizza "+n+" ***");
+	    System.out.println("Diametro: "+pizza.getDiametro());
+	    System.out.println("Ingredientes especiales: "+pizza.getIngredientesEsp());
+	    System.out.println("Precio Pizza $"+pizza.calcularPrecio());
+	    
 	   
 		}
-        	
-		 sc.close();
+		sc.close();	
+		
 	}
 
 

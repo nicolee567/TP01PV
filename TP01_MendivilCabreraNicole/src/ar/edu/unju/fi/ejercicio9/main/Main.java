@@ -8,7 +8,7 @@ public class Main {
       
         int n=1;
 		while(n<=3) {
-		System.out.println("Ingrese nombre del producto nº "+n );
+		System.out.println("***Pizza***"+n );
 	    producto.setNombre(sc.next());
 	    
 	    System.out.println("Ingrese codigo del producto");
