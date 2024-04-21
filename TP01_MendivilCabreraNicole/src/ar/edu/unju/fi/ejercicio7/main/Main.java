@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		//Empleado empleado1= new Empleado("Juan Perez", "1245",  950000.75f);
 		//System.out.println("Aumento de salario: $"+empleado1.aumentoSalario());
-		
+		dddddddddd
 		
 		Scanner sc= new Scanner(System.in);
 		
